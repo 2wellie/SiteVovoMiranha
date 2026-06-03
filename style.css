@@ -1,0 +1,135 @@
+body {
+  background-color: #ebf2fa;
+}
+h1 {
+  color: #780000;
+  font-family: h1fonte, Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  margin: -20px;
+}
+h2 {
+  color: #0077b6;
+  font-family: h2fonte, Arial, Helvetica, sans-serif;
+}
+h3 {
+  color: #780000;
+  font-family: h2fonte, Arial, Helvetica, sans-serif;
+}
+p,
+ol,
+ul,
+table,
+a {
+  color: #000000;
+  font-family: pfonte, Arial, Helvetica, sans-serif;
+}
+p {
+  margin: 8px;
+}
+@font-face {
+  font-family: h1fonte;
+  src: url(fontes/super_mindset/Super\ Mindset.ttf);
+}
+
+@font-face {
+  font-family: h2fonte;
+  src: url(fontes/made_tommy_soft/MADE\ Tommy\ Soft\ Bold\ PERSONAL\ USE.otf);
+}
+
+@font-face {
+  font-family: pfonte;
+  src: url(fontes/tt_interphases_pro/TT\ Interphases\ Pro\ Trial\ Medium.ttf);
+}
+
+header {
+  position: relative;
+  width: fit-content;
+  margin: 0 auto;
+}
+button {
+  background-color: #0077b6;
+  font-family: h2fonte, Arial, Helvetica, sans-serif;
+  width: 150px;
+  height: 30px;
+  color: #1a2341;
+  font-size: 16px;
+  border-radius: 10px;
+}
+button:hover {
+  color: aliceblue;
+}
+.destaquereceitas {
+  text-align: center;
+  background-color: #851818da;
+  color: #57abd8;
+}
+.spiderman {
+  position: absolute;
+  right: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-right: 15px;
+  width: 80px;
+}
+
+.faixa {
+  width: 100%;
+  background-color: #57abd8;
+  padding: 20px 0;
+}
+.preparocake {
+  background-color: #92caffda;
+  color: #67b7e2;
+  padding: 20px;
+  height: 690px;
+  border-color: #1a2341;
+  border-width: 5px;
+  border-style: dashed;
+  width: 50%;
+  flex: 3;
+}
+table {
+  width: 50%;
+  border-radius: 15px;
+  background: rgb(206, 218, 255);
+  border-radius: 12px;
+}
+
+th {
+  background: #b23a48;
+  color: white;
+  padding: 15px;
+  border-radius: 12px;
+}
+
+td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+.tabelacake {
+  align-items: right;
+  flex: 1;
+}
+.preparolasanha {
+  background-color: #92caffda;
+  color: #67b7e2;
+  padding: 20px;
+  height: 740px;
+  border-color: #1a2341;
+  border-width: 5px;
+  border-style: dashed;
+  width: 50%;
+}
+
+footer {
+  border-radius: 15px;
+  width: 40%;
+}
+footer:hover {
+  color: #780000;
+}
+.itens.bolo {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+}
